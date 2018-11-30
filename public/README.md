@@ -1,4 +1,4 @@
-![logo](img/logo.png) [](logo-id)
+![logo](img/logo.svg) [](logo-id)
 
 # Markdown Theme Shell [](title-id)
 
@@ -51,7 +51,7 @@ If you are looking this page not from GH pages here is a:
 
 # How to use
 
-Copy "public" folder from repository, rename it if you want and replace README.md file with your file. You can also use multiple `*.md` files. For each `*.md` file you will also need to have `*.html` file.
+Copy ["public" folder](https://github.com/PavelLaptev/markdown-theme-shell/tree/master/public) from repository, rename it if you want and replace `README.md` file with your file. You can also use multiple `*.md` files. For each `*.md` file you will also need to have `*.html` file.
 
 ### Use local server for preview
 
