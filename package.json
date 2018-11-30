@@ -1,0 +1,22 @@
+{
+    "name": "md-parse-gulp",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Pavel Laptev <laptev.graphics@gmail.com> (https://pavellaptev.github.io)",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.26.3",
+        "gulp": "^3.9.1",
+        "gulp-pug": "^4.0.1",
+        "gulp-stylus": "^2.7.0",
+        "parcel-plugin-markdown-string": "^1.3.2",
+        "webpack-stream": "^5.1.1"
+    },
+    "dependencies": {
+        "webpack": "^4.21.0"
+    }
+}

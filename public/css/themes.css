@@ -1,0 +1,32 @@
+.theme-peach {
+  --black-clr: #222;
+  --text-clr: var(--black-clr);
+  --text-clr-opacity-medium: rgba(34,34,34,0.6);
+  --text-clr-opacity-high: rgba(34,34,34,0.4);
+  --selection-clr: #ffc3c3;
+  --primary-clr: #fff9f5;
+  --accent-clr: #f57;
+  --accent-clr-opacity-medium: rgba(255,85,119,0.4);
+  --sidebar-visible: #fff;
+  --sidebar-burger-background: #fff;
+  --sidebar-burger-opened-background: var(--primary-clr);
+  --standart-link: #00e;
+  --visited-link: #551a8b;
+  --hovered-link: var(--accent-clr);
+}
+.theme-rednight {
+  --black-clr: #222;
+  --text-clr: #fff;
+  --text-clr-opacity-medium: rgba(255,255,255,0.6);
+  --text-clr-opacity-high: rgba(255,255,255,0.4);
+  --selection-clr: #ffc3c3;
+  --primary-clr: #222;
+  --accent-clr: #f57;
+  --accent-clr-opacity-medium: rgba(255,85,119,0.4);
+  --sidebar-visible: #111;
+  --sidebar-burger-background: #fff;
+  --sidebar-burger-opened-background: #fff;
+  --standart-link: #afc0ff;
+  --visited-link: #8270c5;
+  --hovered-link: var(--accent-clr);
+}

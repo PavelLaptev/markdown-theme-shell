@@ -1,0 +1,204 @@
+.sidebar
+    z-index: 99
+    position: fixed
+    width: $l*5+$m
+    height: 100vh
+    display: flex
+    flex-direction: column
+    transition: left 0.2s cubic-bezier(.09,.46,.45,.94)
+    @media screen and (max-width: $tablet-view)
+        left: -($l*8)px
+        background: var(--sidebar-visible)
+        width: $l*8
+        padding-left: $l
+    @media screen and (max-width: $mobile-view)
+        width: 100%
+        left: -100%
+
+    // burger menu icon //
+    &__burger
+        cursor: pointer
+        display: none
+        position: absolute
+        top: $m*2
+        right: -($m*4)
+        width: 80px
+        height: 80px
+        background: var(--sidebar-burger-background)
+        transition: all 0.1s
+        @media screen and (max-width: $tablet-view)
+            display: inline-block
+        &:before
+            content: ""
+            position: absolute
+            left: 20px
+            top: 32px
+            width: 40px
+            height: 2px
+            transition: all 0.2s
+            background: var(--black-clr)
+            box-shadow:
+                0 12px 0 0 var(--black-clr)
+        &:hover
+            &:before
+                background: var(--accent-clr)
+                box-shadow:
+                    0 12px 0 0 var(--accent-clr)
+
+    // title //
+    &__title-block
+        position: relative
+        margin-top: 80px
+        margin-right: 40px
+        margin-bottom: 24px
+        @media screen and (max-width: $tablet-view)
+            margin-right: 120px
+        &__logo
+            width: $l+$xs
+            height: $l+$xs
+            margin-bottom: $xs
+        &__link
+            width: 100%
+            height: 100%
+            display: inline-block
+            position: absolute
+            top: 0
+            left: 0
+        &__title
+            position: relative
+            padding: 0 0 $s
+            pointer-events: none
+            margin: 0
+            color: var(--text-clr)
+        &__version
+            opacity: 0.3
+            color: var(--text-clr)
+    
+    // menu //
+    &__menu
+        list-style-type: none
+        flex: 1
+        margin: 0
+        padding-top: 24px
+        padding-bottom: 48px
+        padding-left: 30px
+        padding-right: 20px
+        overflow-y: auto
+        &::-webkit-scrollbar
+            width: 0
+            opacity: 0
+        &__first-level-title
+            cursor: pointer
+            display: flex
+            align-items: center
+            margin: 0
+            padding-bottom: 14px
+            position: relative
+            padding-left: 0
+            &__link
+                width: 100%
+                display: flex
+                align-items: center
+                position: relative
+                color: var(--text-clr)
+                text-decoration: none
+                transition: all 0.2s
+                &:hover
+                    color: var(--accent-clr)
+                &__ico
+                    stroke: var(--text-clr)
+                    pointer-events: none
+                    opacity: 0
+                    position: absolute
+                    left: -30px
+                    width: 14px
+                    height: 12px
+                    transform: rotate(90deg)
+                    display: inline-block
+                    transition: opacity 0.3s, transform 0.2s
+            &:hover
+                svg
+                    opacity: 1
+                    transform: rotate(0)
+        &__second-level
+            padding: 8px 0 20px
+            margin: 0
+            &-title
+                cursor: pointer
+                display: flex
+                align-items: center
+                margin: 0
+                position: relative
+                padding-left: 0
+                &__link
+                    padding-bottom: 18px
+                    width: 100%
+                    display: flex
+                    align-items: center
+                    position: relative
+                    color: var(--text-clr)
+                    opacity: 0.7
+                    text-decoration: none
+                    transition: all 0.2s
+                    &:hover
+                        color: var(--accent-clr)
+                    &__ico
+                        stroke: var(--text-clr)
+                        pointer-events: none
+                        opacity: 0
+                        position: absolute
+                        left: -30px
+                        width: 14px
+                        height: 12px
+                        transform: rotate(90deg)
+                        display: inline-block
+                        transition: opacity 0.3s, transform 0.2s
+                &:hover
+                    svg
+                        opacity: 1
+                        transform: rotate(0)
+        &__third-level
+            padding: 8px 0 20px
+            margin: 0
+            &-title
+                cursor: pointer
+                display: flex
+                align-items: center
+                margin: 0
+                margin-left: 20px 
+                position: relative
+                padding-left: 0
+                &__link
+                    padding-bottom: 16px
+                    width: 100%
+                    display: block
+                    position: relative
+                    color: var(--text-clr)
+                    opacity: 0.6
+                    text-decoration: none
+                    transition: all 0.2s
+                    &:hover
+                        color: var(--accent-clr)
+
+.burger-close
+    right: 20px !important
+    background: var(--sidebar-burger-opened-background)
+    &:before
+        top: 40px
+        box-shadow:
+                0 0px 0 0 var(--black-clr)
+    &:hover
+        &:before
+            background: var(--accent-clr)
+            box-shadow:
+            0 0 0 0 var(--accent-clr)
+
+.show-sidebar
+    left: 0
+
+.hide-submenu
+    display: none
+
+.fix-ico
+    transform: rotate(0) !important
+    opacity: 0.4 !important

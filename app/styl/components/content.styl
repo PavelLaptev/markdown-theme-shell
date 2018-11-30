@@ -1,0 +1,81 @@
+.content
+    margin-left: $sidebarWidth
+    margin-top: $s*2
+    margin-bottom: $l*2
+    @media screen and (max-width: $tablet-view)
+        margin-left: 0
+
+    a
+        color: var(--standart-link)
+        transition: color 0.16s ease
+        &:hover
+            color: var(--hovered-link)
+        &:visited
+            color: var(--visited-link)
+            &:hover
+                color: var(--hovered-link)
+
+    pre
+        code
+            border-radius: $xxs
+
+    code
+        font-family: 'Roboto Mono', monospace
+        line-height: 1.4em
+
+
+    h1, h2, h3, h4, h5, h6
+        color: var(--text-clr)
+        margin-top: $l
+
+    hr
+        margin: $l+$m 0
+        border: 0.5px solid var(--text-clr-opacity-high)
+
+    p
+        color: var(--text-clr)
+        font-size: 1em
+        line-height: 1.64em
+        code
+            font-weight: bold
+
+    img
+        max-width: 100%
+        margin: $xs 0
+
+    blockquote
+        border-left: .25em solid var(--text-clr-opacity-high);
+        margin: $m 0
+        padding: 0 $m
+
+    table
+        width: 100%
+        border-spacing: 0
+        border-collapse: collapse
+        margin-bottom: $l
+        margin-top: $m
+        font-size: 14px
+        color: var(--text-clr)
+        th
+            border-bottom: 1px solid var(--accent-clr)
+            &:last-child
+                text-align: left !important
+        td
+            border-bottom: 1px solid var(--accent-clr-opacity-medium)
+            &:last-child
+                text-align: left !important
+        td, th
+            padding: 10px
+        code
+            font-weight: bold
+
+    ul, ol
+        li
+            color: var(--text-clr)
+            font-size: 1em
+            line-height: 1.64em
+            margin-bottom: $xs
+            code
+                font-weight: bold
+        ul
+            margin: 1em 0 2em
