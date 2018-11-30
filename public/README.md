@@ -57,8 +57,8 @@ Copy ["public" folder](https://github.com/PavelLaptev/markdown-theme-shell/tree/
 
 "Theme Shell" use `fetch method` to get the content from `*.md` file that's why you need to launch the page on a local server if you want to see result before you move it on an actual server. There are several ways two make it:
 
-1. Running a simple Python's `SimpleHTTPServer`. See [instruction](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
-2. Download [Prepros App](https://prepros.io/). Drag-n-drop "public" folder into the app.
+1. Download [Prepros App](https://prepros.io/). Drag-n-drop "public" folder into the app.
+2. Running a simple Python's `SimpleHTTPServer`. See [instruction](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
 
 ---
 
@@ -70,9 +70,13 @@ You can find page settings if you open html page. Settings is a set of meta-tags
 
 So far you can adjust:
 
--   `readme-path` — is the path to `*.md` file. You can set any name and path to your file here.
--   `page-theme` — here you can change a color theme. All color themes placed inside css folder `themes.css` file.
--   `outer-frame` — switching off/on (`true` or `false`) white frame around the page.
+| Settings      | Type    | Description                                                                                    |
+| :------------ | :------ | :--------------------------------------------------------------------------------------------- |
+| `readme-path` | string  | is the path to `*.md` file. You can set any name and path to your file here                    |
+| `page-theme`  | string  | here you can change a color theme. All color themes placed inside css folder `themes.css` file |
+| `outer-frame` | boolean | switching off/on (`true` or `false`) white frame around the page                               |
+
+Available themes — `theme-peach` (default), `theme-minimal`, `theme-material`, `theme-rednight`
 
 ---
 
@@ -84,7 +88,7 @@ We are using [highlight.js](https://highlightjs.org/) for code snippets. If you 
 
 Avalible themes:
 
--   `default`
+-   `peach`
 -   `rednight`
 
 ---

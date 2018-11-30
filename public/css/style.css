@@ -157,7 +157,7 @@ body {
   display: none;
   position: absolute;
   top: 48px;
-  right: -96px;
+  right: -95px;
   width: 80px;
   height: 80px;
   background: var(--sidebar-burger-background);
