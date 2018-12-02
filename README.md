@@ -18,8 +18,6 @@ If you are looking this page not from GH pages here is a:
 
 ---
 
-# Credits
-
 ### Authors
 
 Code: [Pavel Laptev](http://laptevpavel.ru)
