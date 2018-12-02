@@ -36,6 +36,10 @@ If you are looking this page not from GH pages here is a:
 
 ## [Live demo](https://pavellaptev.github.io/markdown-theme-shell/public/) 👈
 
+### Video tutorial — [youtu.be/zQknZiW84dQ](https://youtu.be/zQknZiW84dQ)
+
+### Github Project — [github.com/PavelLaptev/markdown-theme-shell](https://github.com/PavelLaptev/markdown-theme-shell)
+
 ---
 
 ## Advantages of use
