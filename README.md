@@ -15,3 +15,16 @@ If you are looking this page not from GH pages here is a:
 ## [Live demo and documentation](https://pavellaptev.github.io/markdown-theme-shell/public/) 👈
 
 ### Video tutorial — [youtu.be/zQknZiW84dQ](https://youtu.be/zQknZiW84dQ)
+
+---
+
+# Credits
+
+### Authors
+
+Code: [Pavel Laptev](http://laptevpavel.ru)
+Design: [Alexander Artsvuni](http://artsvuni.com)
+
+### Licince
+
+[MIT](https://github.com/markdown-it/markdown-it/blob/master/LICENSE)
