@@ -1,5 +1,7 @@
 # Markdown Theme Shell
 
+![rep preview preview](public/img/rep-preview.png)
+
 ## Motivation
 
 Often, while working on a design system or other design-documents, we have to keep detailed documentation. This is useful not only for structuring existing files, but it **becomes a single source of truth** that not only designers, but also managers and developers look at. And there is a need for collective file editing.
