@@ -1,6 +1,6 @@
 # Markdown Theme Shell
 
-![rep preview preview](public/img/rep-preview.jp)
+![rep preview preview](public/img/rep-preview.jpg)
 
 ## Motivation
 
