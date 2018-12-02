@@ -13,7 +13,8 @@ const generateToc = shadowDOM => {
                 linkHrefFirstLevel = item
                     .querySelector("a")
                     .getAttribute("href")
-                    .replace(/,/g, "");
+                    .replace(/,/g, "")
+                    .toLowerCase();
 
             // Check if second level exists
             if (item.querySelector("ul")) {
@@ -24,7 +25,8 @@ const generateToc = shadowDOM => {
                     let linkHrefSecondLevel = item
                         .querySelector("a")
                         .getAttribute("href")
-                        .replace(/,/g, "");
+                        .replace(/,/g, "")
+                        .toLowerCase();
                     let thirdLevelArr = [];
 
                     // Generate third level
@@ -34,7 +36,8 @@ const generateToc = shadowDOM => {
                                 let linkHrefThirdLevel = item
                                     .querySelector("a")
                                     .getAttribute("href")
-                                    .replace(/,/g, "");
+                                    .replace(/,/g, "")
+                                    .toLowerCase();
 
                                 thirdLevelArr.push(
                                     `<li class='sidebar__menu__third-level-title fontstyle__sidebar-third-level-title'><a class='sidebar__menu__third-level-title__link' onclick='TOCActions.scrollTo(event, this)' href='${linkHrefThirdLevel}'>${

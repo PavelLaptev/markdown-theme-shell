@@ -90,6 +90,8 @@ Avalible themes:
 
 -   `peach`
 -   `rednight`
+-   `minimal`
+-   `material`
 
 ---
 
@@ -180,8 +182,10 @@ You can change a theme by using meta-tag `page-theme` on the top of the html fil
 
 Avalible themes:
 
--   `theme-peach` — Current theme
--   `theme-rednight` — [live demo](rednight.html)
+-   `theme-peach` — light theme. Current theme
+-   `theme-minimal` — light theme → [demo](../themes-examples/minimal.html)
+-   `theme-rednight` — dark theme → [demo](../themes-examples/rednight.html)
+-   `theme-material` — dark theme → [demo](../themes-examples/material.html)
 
 ![change theme preview](img/change-theme.png)
 

@@ -1,0 +1,24 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.fontstyle__sidebar-title {
+  font-weight: 700;
+  font-size: 28px;
+}
+.fontstyle__sidebar-version {
+  font-size: 16px;
+  font-weight: 700;
+}
+.fontstyle__sidebar-first-level-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+}
+.fontstyle__sidebar-second-level-title {
+  font-weight: 400;
+  font-size: 16px;
+}
+.fontstyle__sidebar-third-level-title {
+  font-weight: 400;
+  font-size: 15px;
+}

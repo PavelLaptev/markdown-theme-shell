@@ -1,0 +1,67 @@
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 2em;
+    background: #111;
+    margin: 34px 0;
+}
+.hljs,
+.hljs-subst {
+    color: #bfbfbf;
+}
+.hljs-comment {
+    color: #7a7a7a;
+}
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name {
+    font-weight: bold;
+}
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+    color: #f57;
+}
+.hljs-title,
+.hljs-section {
+    color: #f57;
+    font-weight: bold;
+}
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+    color: #f57;
+}
+.hljs-literal {
+    color: #80d230;
+}
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+    color: #a2d371;
+}
+.hljs-meta {
+    color: #5ca1c4;
+}
+.hljs-meta-string {
+    color: #4d99bf;
+}
+.hljs-emphasis {
+    font-style: italic;
+}
+.hljs-strong {
+    font-weight: bold;
+}

@@ -1,5 +1,8 @@
 const fixIdName = name => {
-    return name.replace(/\s+/g, "-").replace(/,/g, "");
+    return name
+        .replace(/\s+/g, "-")
+        .replace(/,/g, "")
+        .toLowerCase();
 };
 
 const placeHeaderIDs = shadowDOM => {
