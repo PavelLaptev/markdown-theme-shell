@@ -321,7 +321,7 @@ App folder
 
 ### Authors
 
-Code: [Laptev Pavel](http://laptevpavel.ru)
+Code: [Pavel Laptev](http://laptevpavel.ru)
 Design: [Alexander Artsvuni](http://artsvuni.com)
 
 ### Licince
