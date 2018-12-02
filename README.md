@@ -12,6 +12,6 @@ The advantage of the markdown file is that it can be easily transferred to anoth
 
 If you are looking this page not from GH pages here is a:
 
-## [Live demo](https://pavellaptev.github.io/markdown-theme-shell/public/) 👈
+## [Live demo and documentation](https://pavellaptev.github.io/markdown-theme-shell/public/) 👈
 
 ### Video tutorial — [youtu.be/zQknZiW84dQ](https://youtu.be/zQknZiW84dQ)
