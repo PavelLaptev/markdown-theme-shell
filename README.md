@@ -1,5 +1,7 @@
 # Markdown Theme Shell
 
+![rep preview preview](public/img/rep-preview.jpg)
+
 ## Motivation
 
 Often, while working on a design system or other design-documents, we have to keep detailed documentation. This is useful not only for structuring existing files, but it **becomes a single source of truth** that not only designers, but also managers and developers look at. And there is a need for collective file editing.
@@ -13,8 +15,6 @@ If you are looking this page not from GH pages here is a:
 ## [Live demo and documentation](https://pavellaptev.github.io/markdown-theme-shell/public/) 👈
 
 ### Video tutorial — [youtu.be/zQknZiW84dQ](https://youtu.be/zQknZiW84dQ)
-
-![rep preview preview](public/img/rep-preview.jpg)
 
 ---
 
