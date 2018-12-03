@@ -361,7 +361,7 @@ body {
 }
 .frame {
   position: fixed;
-  z-index: 9999999s;
+  z-index: 9999999;
   top: 0;
   height: 0;
   width: 100%;
@@ -376,4 +376,9 @@ body {
   padding: 0 64px;
   margin: 0 auto;
   max-width: 1200px;
+}
+@media screen and (max-width: 540px) {
+  .wrap {
+    padding: 0 48px;
+  }
 }
