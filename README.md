@@ -1,5 +1,7 @@
 # Markdown Theme Shell
 
+## v0.1.0
+
 ![rep preview preview](public/img/rep-preview.jpg)
 
 ## Motivation
