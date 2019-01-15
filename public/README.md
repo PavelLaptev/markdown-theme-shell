@@ -7,7 +7,6 @@
 ### Table of contents [](toc-id)
 
 -   [Motivation](#Motivation)
-    -   [Live demo](#Live-demo-👈)
     -   [Advantages of use](#Advantages-of-use)
 -   [How to use](#How-to-use)
     -   [Settings](#Settings)
