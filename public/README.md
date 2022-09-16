@@ -6,22 +6,22 @@
 
 ### Table of contents [](toc-id)
 
--   [Motivation](#Motivation)
-    -   [Advantages of use](#Advantages-of-use)
--   [How to use](#How-to-use)
-    -   [Settings](#Settings)
-    -   [Highlight your code](#Highlight-your-code)
-    -   [Change fonts](#Change-fonts)
-    -   [Change favicon](#Change-favicon)
-    -   [Multiple templates](#Multiple-templates)
--   [Color themes](#Color-themes)
--   [Generate sidebar](#Generate-sidebar)
-    -   [Logo](#Logo)
-    -   [Page and doc title](#Page-and-document-title)
-    -   [Doc version](#Doc-version)
-    -   [Table of Contents](#Table-of-Contents)
-        -   [Nested levels](#Nested-levels)
--   [Use Gulp](#Use-Gulp)
+- [Motivation](#Motivation)
+  - [Advantages of use](#Advantages-of-use)
+- [How to use](#How-to-use)
+  - [Settings](#Settings)
+  - [Highlight your code](#Highlight-your-code)
+  - [Change fonts](#Change-fonts)
+  - [Change favicon](#Change-favicon)
+  - [Multiple templates](#Multiple-templates)
+- [Color themes](#Color-themes)
+- [Generate sidebar](#Generate-sidebar)
+  - [Logo](#Logo)
+  - [Page and doc title](#Page-and-document-title)
+  - [Doc version](#Doc-version)
+  - [Table of Contents](#Table-of-Contents)
+    - [Nested levels](#Nested-levels)
+- [Use Gulp](#Use-Gulp)
 
 # Motivation
 
@@ -39,12 +39,12 @@ The advantage of the markdown file is that it can be easily transferred to anoth
 
 ## Advantages of use
 
--   Adgustable design
--   Color themes
--   Easy to use. No code knoledge required
--   Table of contents as a sidebar menu
--   Got simple mobile version
--   Supports <span style="color: #f45">html tags and styles</span>
+- Adgustable design
+- Color themes
+- Easy to use. No code knoledge required
+- Table of contents as a sidebar menu
+- Got simple mobile version
+- Supports <span style="color: #f45">html tags and styles</span>
 
 ---
 
@@ -87,10 +87,10 @@ We are using [highlight.js](https://highlightjs.org/) for code snippets. If you 
 
 Avalible themes:
 
--   `peach`
--   `rednight`
--   `minimal`
--   `material`
+- `peach`
+- `rednight`
+- `minimal`
+- `material`
 
 ---
 
@@ -100,9 +100,9 @@ We use [Google Fonts](https://fonts.google.com/). They connect at the top of the
 
 ```html
 <link
-    rel="stylesheet"
-    type="text/css"
-    href="https://fonts.googleapis.com/css?family=Poppins:400,500,700"
+  rel="stylesheet"
+  type="text/css"
+  href="https://fonts.googleapis.com/css?family=Poppins:400,500,700"
 />
 ```
 
@@ -110,28 +110,28 @@ To change the font family and font styles, open CSS file `font-styles`.
 
 ```css
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .fontstyle__sidebar-title {
-    font-weight: 700;
-    font-size: 28px;
+  font-weight: 700;
+  font-size: 28px;
 }
 .fontstyle__sidebar-version {
-    font-size: 16px;
-    font-weight: 700;
+  font-size: 16px;
+  font-weight: 700;
 }
 .fontstyle__sidebar-first-level-title {
-    font-weight: 400;
-    font-size: 18px;
+  font-weight: 400;
+  font-size: 18px;
 }
 .fontstyle__sidebar-second-level-title {
-    font-weight: 400;
-    font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
 }
 .fontstyle__sidebar-third-level-title {
-    font-weight: 400;
-    font-size: 15px;
+  font-weight: 400;
+  font-size: 15px;
 }
 ```
 
@@ -146,21 +146,21 @@ All icons store are stored in "favicon" folder. To generate your own icons you c
 ```html
 <!-- Favicon -->
 <link
-    rel="apple-touch-icon"
-    sizes="180x180"
-    href="/favicon/apple-touch-icon.png"
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/favicon/apple-touch-icon.png"
 />
 <link
-    rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="/favicon/favicon-32x32.png"
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="/favicon/favicon-32x32.png"
 />
 <link
-    rel="icon"
-    type="image/png"
-    sizes="16x16"
-    href="/favicon/favicon-16x16.png"
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="/favicon/favicon-16x16.png"
 />
 <link rel="manifest" href="/favicon/manifest.webmanifest" />
 <meta name="msapplication-TileColor" content="#da532c" />
@@ -181,10 +181,10 @@ You can change a theme by using meta-tag `page-theme` on the top of the html fil
 
 Avalible themes:
 
--   `theme-peach` — light theme. Current theme
--   `theme-minimal` — light theme → [demo](../themes-examples/minimal.html)
--   `theme-rednight` — dark theme → [demo](../themes-examples/rednight.html)
--   `theme-material` — dark theme → [demo](../themes-examples/material.html)
+- `theme-peach` — light theme. Current theme
+- `theme-minimal` — light theme → [demo](../themes-examples/minimal.html)
+- `theme-rednight` — dark theme → [demo](../themes-examples/rednight.html)
+- `theme-material` — dark theme → [demo](../themes-examples/material.html)
 
 ![change theme preview](img/change-theme.png)
 
@@ -194,20 +194,20 @@ Theme Shell use [CCS variables](https://developer.mozilla.org/en-US/docs/Web/CSS
 
 ```css
 .theme-peach {
-    --black-clr: #222;
-    --text-clr: var(--black-clr);
-    --text-clr-opacity-medium: rgba(34, 34, 34, 0.6);
-    --text-clr-opacity-high: rgba(34, 34, 34, 0.4);
-    --selection-clr: #ffc3c3;
-    --primary-clr: #fff9f5;
-    --accent-clr: #f57;
-    --accent-clr-opacity-medium: rgba(255, 85, 119, 0.4);
-    --sidebar-visible: #fff;
-    --sidebar-burger-background: #fff;
-    --sidebar-burger-opened-background: var(--primary-clr);
-    --standart-link: #00e;
-    --visited-link: #551a8b;
-    --hovered-link: var(--accent-clr);
+  --black-clr: #222;
+  --text-clr: var(--black-clr);
+  --text-clr-opacity-medium: rgba(34, 34, 34, 0.6);
+  --text-clr-opacity-high: rgba(34, 34, 34, 0.4);
+  --selection-clr: #ffc3c3;
+  --primary-clr: #fff9f5;
+  --accent-clr: #f57;
+  --accent-clr-opacity-medium: rgba(255, 85, 119, 0.4);
+  --sidebar-visible: #fff;
+  --sidebar-burger-background: #fff;
+  --sidebar-burger-opened-background: var(--primary-clr);
+  --standart-link: #00e;
+  --visited-link: #551a8b;
+  --hovered-link: var(--accent-clr);
 }
 ```
 
@@ -246,9 +246,9 @@ Or just keep it empty [](version-id) or delete it.
 ```md
 ### Table of contents [](toc-id)
 
--   [Motivation](#Motivation)
-    -   [Advantages of use](#Advantages-of-use)
--   [How to use](#How-to-use)
+- [Motivation](#Motivation)
+  - [Advantages of use](#Advantages-of-use)
+- [How to use](#How-to-use)
 ```
 
 ### Nested levels
@@ -319,6 +319,6 @@ App folder
 Code: [Pavel Laptev](http://laptevpavel.ru)
 Design: [Alexander Artsvuni](http://artsvuni.com)
 
-### Licince
+### License
 
 [MIT](https://github.com/markdown-it/markdown-it/blob/master/LICENSE)

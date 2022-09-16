@@ -25,6 +25,6 @@ If you are looking this page not from GH pages here is a:
 Code: [Pavel Laptev](http://laptevpavel.ru)
 Design: [Alexander Artsvuni](http://artsvuni.com)
 
-### Licince
+### License
 
 [MIT](https://github.com/markdown-it/markdown-it/blob/master/LICENSE)
